@@ -1,4 +1,9 @@
 @import url(./fonts.css);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Nunito", sans-serif;
+}
 *,
 *::before,
 *::after {
@@ -115,7 +120,7 @@ image {
 .hero-content {
   border-radius: 5%;
   background-color: #e4f7ff;
-  padding: 104px 130px 126px 130px;
+  padding: 104px 130px 97px 130px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -152,9 +157,44 @@ image {
   padding: 71.83px 0 12.5px 0;
   line-height: 54.56px;
   font-size: 40px;
-  font-family: "Nunito";
+  font-family: "Nunito" sans-serif;
   font-weight: 800;
   color: black;
+}
+.email-adress {
+  box-shadow: 0px 0px 10.6703px rgba(0, 0, 0, 0.1);
+  border-radius: 38.7688px;
+  margin: 3.3rem 3.3rem 3.3rem 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+}
+.email-adress__input {
+  padding: 24px 0 25px 31px;
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 30px 0 0 30px;
+}
+.email-adress__input::placeholder {
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #5a5a5a;
+}
+.join-button {
+  font-family: "Nunito" sans-serif;
+  background: #0b56e8;
+  border-radius: 32.3666px;
+  padding: 24px 35px;
+  margin: 7.83px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
 .left-side__description {
   color: #00085e;

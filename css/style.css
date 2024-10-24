@@ -1,0 +1,171 @@
+@import url(./fonts.css);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+image {
+  object-fit: cover;
+  display: flex;
+}
+.container {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 100%;
+  max-width: 1388px;
+  margin: 0 auto;
+}
+.nav {
+  max-height: 101px;
+  width: 100%;
+  padding-top: 31.5px;
+  padding-bottom: 31.5px;
+  padding-left: 74px;
+  padding-right: 74px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.item_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  gap: 28px;
+}
+.item a {
+  color: black;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Satoshi", sans-serif;
+}
+.search_container {
+  gap: 11.43px;
+  display: flex;
+  align-items: center;
+  min-width: 261px;
+  background-color: #f6f6f6;
+  border-radius: 70.3px;
+  padding: 13px 0 15px 17.6px;
+}
+.search_input {
+  letter-spacing: -0.36px;
+  line-height: 2.7rem;
+  font-size: 2rem;
+  color: #676767;
+  background-color: #f6f6f6;
+  outline: 0;
+  border: 0;
+}
+.enter {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.log_in {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Satoshi", sans-serif;
+}
+.sign_up {
+  border-radius: 100px;
+  padding: 9.47px 21.04px;
+  border: none;
+  outline: none;
+  background-color: #0b56e8;
+  color: white;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Satoshi", sans-serif;
+}
+.hero {
+  padding-top: 125px;
+}
+.hero-content {
+  border-radius: 5%;
+  background-color: #e4f7ff;
+  padding: 104px 130px 126px 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.description {
+  font-family: "Nunito";
+  line-height: 25px;
+  font-size: 18.33px;
+  font-weight: 700;
+  color: #676767;
+}
+.main-title {
+  font-family: "Nunito";
+  color: #00085e;
+  font-weight: 900;
+  font-size: 45.83px;
+  line-height: 62.52px;
+  padding: 19.17px 60px 43.17px 0;
+}
+.product-description {
+  display: flex;
+  flex-direction: row;
+  gap: 30.34px;
+}
+.product-description__text {
+  max-width: 480px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.84px;
+  color: #00085e;
+}
+.title {
+  padding: 71.83px 0 12.5px 0;
+  line-height: 54.56px;
+  font-size: 40px;
+  font-family: "Nunito";
+  font-weight: 800;
+  color: black;
+}
+.left-side__description {
+  color: #00085e;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.84px;
+}
+.join {
+}
+.right-side {
+}
+.right-side-image {
+}
